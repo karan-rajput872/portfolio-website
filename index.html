@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Priyanshu's Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Navbar */
+        .navbar {
+	    background-color: #333;
+	    padding: 15px;
+	    text-align: center;
+	    position: sticky;
+	    top: 0;
+	    z-index: 1000;
+	}
+
+        .navbar a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            color: yellow;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: #0077cc;
+            color: white;
+        }
+
+        /* Sections */
+        .section {
+            width: 75%;
+            margin: 35px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #0077cc;
+        }
+
+        /* Skills */
+        .skills li {
+            margin: 5px 0;
+        }
+	
+	/* Project */
+	.project {
+    background: #fafafa;
+    padding: 15px;
+    margin: 8px 0;
+    border-left: 5px solid #0077cc;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.02);
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #0077cc;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.project a:hover {
+    background: #005fa3;
+}
+
+	/* Hobbies */
+	.hobbies li{
+	    margin: 5px 0;
+	}		
+
+        /* Contact */
+        .contact a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background: #333;
+            color: white;
+        }
+
+	@media (max-width: 768px) {
+    .section {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 30px;
+    }
+}
+    </style>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+	<a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Hi, I'm Priyanshu Karan!!</h1>
+        <p>Aspiring Web Developer</p>
+    </div>
+
+    <!-- About -->
+    <div class="section" id="about">
+        <h2>About Me</h2>
+        <p>I am a B.Tech 1st-year student.</p>
+        <p>I am learning HTML, CSS, and programming.</p>
+        <p>I want to become a skilled web developer.</p>
+	<p>I want to learn something new which is required by the upcoming generation.</p>
+    </div>
+
+    <!-- Skills -->
+    <div class="section" id="skills">
+        <h2>My Skills</h2>
+        <ul class="skills">
+            <li>HTML</li>
+            <li>CSS (Learning)</li>
+            <li>C Programming</li>
+        </ul>
+    </div>
+
+    <!-- Hobbies -->
+    <div class="section" id="hobbies">
+	<h2>My Hobbies</h2>
+	<ul class="hobbies">
+		<li>Coding</li>
+		<li>Gaming</li>
+		<li>Cricket</li>
+	</ul>
+    </div>
+
+    <div class="section" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>This is my personal portfolio website made using HTML and CSS.</p>
+
+	<p><a href="https://github.com/karan-rajput872/student-result-system/blob/main/p5.c">View Code</a></p>
+    </div>
+
+    <div class="project">
+        <h3>Simple Calculator</h3>
+        <p>A basic calculator program made using C.</p>
+
+	<p><a href="https://github.com/karan-rajput872/student-result-system/blob/main/p5.c">View Code</a></p>
+    </div>
+
+	<div class="project">
+        <h3>Student Result System</h3>
+        <p>A C program that calculates total marks, percentage, and grade using conditional logic.</p>
+        <p><strong>Technologies:</strong> C Programming</p>
+
+	<p><a href="https://github.com/karan-rajput872/student-result-system/blob/main/p5.c">View Code</a></p>
+        </div>
+
+</div>
+
+
+    <!-- Contact -->
+    <div class="section contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:priyanshukaran25@email.com">Send Email</a></p>
+	<p>Mobile: 9263964053</p>
+        <a href="https://www.linkedin.com/in/priyanshu-karan-417202390/" target="_blank">LinkedIn</a>
+	<p><a href="https://github.com/karan-rajput872" target="_blank">GitHub</a></p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2026 Priyanshu</p>
+    </div>
+
+</body>
+</html>
